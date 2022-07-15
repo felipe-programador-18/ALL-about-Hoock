@@ -2,6 +2,7 @@ import React from 'react'
 import AddingSome from '../Componente/useeeffect'
 import AddReffered from '../Componente/userefff'
 import Practicallba from '../Componente/useCallbackreac'
+import Morepractice from '../Componente/Morecallback'
 
 const Home = () => {
     
@@ -11,6 +12,9 @@ const Home = () => {
              <AddingSome/>
              <AddReffered/>
              <Practicallba/>
+             <br/>
+             <hr/>
+             <Morepractice/>
     </> )
 }
 
