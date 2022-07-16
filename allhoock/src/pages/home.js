@@ -3,6 +3,9 @@ import AddingSome from '../Componente/useeeffect'
 import AddReffered from '../Componente/userefff'
 import Practicallba from '../Componente/useCallbackreac'
 import Morepractice from '../Componente/Morecallback'
+import PracticeMemo from '../Componente/useMemory'
+import CreateUseLayout from '../Componente/useLayoutmore'
+import AddingImperative from '../Componente/useImperative'
 
 const Home = () => {
     
@@ -15,6 +18,11 @@ const Home = () => {
              <br/>
              <hr/>
              <Morepractice/>
+             <PracticeMemo/>
+              
+              <br/>
+             <CreateUseLayout/>
+             <AddingImperative/>
     </> )
 }
 
