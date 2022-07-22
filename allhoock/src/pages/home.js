@@ -6,12 +6,15 @@ import Morepractice from '../Componente/Morecallback'
 import PracticeMemo from '../Componente/useMemory'
 import CreateUseLayout from '../Componente/useLayoutmore'
 import AddingImperative from '../Componente/useImperative'
+import { useVerify } from '../Personalitehook/useContext'
 
 const Home = () => {
-    
+ 
+  const {count, setCount} = useVerify()
     
     return ( <>
            <h1>Adding home here and adding component that contains useEffect </h1>
+            {count}
              <AddingSome/>
              <AddReffered/>
              <Practicallba/>
