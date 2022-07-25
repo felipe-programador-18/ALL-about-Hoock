@@ -9,16 +9,18 @@ import { TitleProvider } from './hoock/color';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  
   <AddProvideContext>
-    <TitleProvider>
+  <TitleProvider >
   <BrowserRouter>
   <React.StrictMode>
     <App />
   </React.StrictMode>
   </BrowserRouter>
-  
   </TitleProvider>
+  
   </AddProvideContext>
+  
 );
 
 // If you want to start measuring performance in your app, pass a function
