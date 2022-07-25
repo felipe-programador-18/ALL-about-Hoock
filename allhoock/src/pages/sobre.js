@@ -1,6 +1,7 @@
 import AddingSome from "../Componente/useeeffect"
 import { useVerify } from "../Personalitehook/useContext"
 import {useVerifyColor} from "../Personalitehook/useColors"
+import CreateMoreEffect from "../Componente/createAnotherUsereffect"
 
 
 const Sobre = ( ) => {
@@ -24,6 +25,8 @@ const Sobre = ( ) => {
      <button onClick={() => setCount(count+1) } >Increased more one</button>
      <button onClick={ () =>  AnotherColor("BLACK") } >black</button>
      <button onClick={ () =>  AnotherColor("BLUE") } >blue</button>
+        
+     <CreateMoreEffect/>
 
       </div>
     </>)
