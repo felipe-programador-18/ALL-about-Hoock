@@ -2,6 +2,7 @@ import AddingSome from "../Componente/useeeffect"
 import { useVerify } from "../Personalitehook/useContext"
 import {useVerifyColor} from "../Personalitehook/useColors"
 import CreateMoreEffect from "../Componente/createAnotherUsereffect"
+import PracticeReffe from "../Componente/More.ref.userfe"
 
 
 const Sobre = ( ) => {
@@ -27,6 +28,7 @@ const Sobre = ( ) => {
      <button onClick={ () =>  AnotherColor("BLUE") } >blue</button>
         
      <CreateMoreEffect/>
+     <PracticeReffe/>
 
       </div>
     </>)
