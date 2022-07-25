@@ -3,6 +3,8 @@ import { useVerify } from "../Personalitehook/useContext"
 import {useVerifyColor} from "../Personalitehook/useColors"
 import CreateMoreEffect from "../Componente/createAnotherUsereffect"
 import PracticeReffe from "../Componente/More.ref.userfe"
+import BuildCallback from "../MoreHoock/usecallback"
+import CreateExampleMemo from "../MoreHoock/useMemo"
 
 
 const Sobre = ( ) => {
@@ -29,6 +31,9 @@ const Sobre = ( ) => {
         
      <CreateMoreEffect/>
      <PracticeReffe/>
+     <BuildCallback/>
+
+     <CreateExampleMemo/>
 
       </div>
     </>)
