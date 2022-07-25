@@ -5,7 +5,6 @@ import React, { useEffect, useState } from 'react'
 const AddingSome = () => {
     const [number, setnumber] = useState(0)
     
-  
     
     const Increased = () => {
        setnumber(number+2)
