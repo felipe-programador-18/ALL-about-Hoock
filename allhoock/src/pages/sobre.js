@@ -10,7 +10,7 @@ const Sobre = ( ) => {
    const {color,dispatch} = useVerifyColor()
    console.log("i am here", color) 
    
-   const tradeColor = (color) => {
+   const AnotherColor = (color) => {
      dispatch({type:color})
    }
   
@@ -22,8 +22,8 @@ const Sobre = ( ) => {
    <p style={{background:color}} >sobre more about sobre</p>
      {count}
      <button onClick={() => setCount(count+1) } >Increased more one</button>
-     <button onClick={ () =>  tradeColor("BLACK") } >black</button>
-     <button onClick={ () =>  tradeColor("BLUE") } >blue</button>
+     <button onClick={ () =>  AnotherColor("BLACK") } >black</button>
+     <button onClick={ () =>  AnotherColor("BLUE") } >blue</button>
 
       </div>
     </>)
