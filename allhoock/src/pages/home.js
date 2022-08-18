@@ -8,6 +8,7 @@ import CreateUseLayout from '../Componente/useLayoutmore'
 import AddingImperative from '../Componente/useImperative'
 import { useVerify } from '../Personalitehook/useContext'
 import { useVerifyColor } from '../Personalitehook/useColors'
+import TraningReducer from '../Reducer/useReducer'
 
 const Home = () => {
   const {color,dispatch} = useVerifyColor()
@@ -24,6 +25,10 @@ const Home = () => {
    
     return ( <> 
        <div style={{background:color}} >
+       
+       <TraningReducer/>
+          
+
            <h1>Adding home here and adding component that contains useEffect </h1>
           {color}
            <button onClick={() => tradecolor({color:'BLUE'})} > Trade another color </button>
