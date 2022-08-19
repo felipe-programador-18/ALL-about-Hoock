@@ -1,4 +1,5 @@
 import React,{useReducer, useState} from 'react'
+import TraningMore from './anotherReducer'
 
 const TraningReducer = () => {
 
@@ -58,6 +59,8 @@ const taksreducer = (state, action) => {
 
 
   return(<>
+    <TraningMore/> 
+
     <h2>Testing use Reducer ...  </h2>
     <p>My number is here {number}</p>
     <button onClick={dispatch} >alterar</button>
