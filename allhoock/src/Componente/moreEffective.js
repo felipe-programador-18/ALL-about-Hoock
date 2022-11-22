@@ -1,13 +1,13 @@
 import React,{useEffect, useState} from 'react'
 
 
-const practiceEffect = () => {
-        
+const PracticeEffect = () => {
+    const[number, setNumber] = useState(0)        
 
     //practice a little about this!
     useEffect(() => {
-
-    },[])
+       setNumber(number+1) 
+    },[number])
 
 
     return(
@@ -18,4 +18,4 @@ const practiceEffect = () => {
 }
 
 
-export default practiceEffect
+export default PracticeEffect
