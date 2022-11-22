@@ -4,8 +4,6 @@ import React,{useEffect, useState} from 'react'
 const PracticeEffect = () => {
     const[number, setNumber] = useState(0)        
     
-
-
     const testIncreased = () => {
         setNumber(number+1)
     }
