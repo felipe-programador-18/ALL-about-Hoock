@@ -7,6 +7,7 @@ import BuildCallback from "../MoreHoock/usecallback"
 import CreateExampleMemo from "../MoreHoock/useMemo"
 import AddCallbackHere from "../CallbackandMemo/ReceiveCallback"
 import MoreMemoHere from "../CallbackandMemo/ReceiveMemohere"
+import PracticeEffect from "../Componente/moreEffective"
 
 
 const Sobre = ( ) => {
@@ -38,6 +39,8 @@ const Sobre = ( ) => {
      <CreateExampleMemo/>
      <AddCallbackHere/>
      <MoreMemoHere/>
+
+     <PracticeEffect/>
       </div>
     </>)
 }
