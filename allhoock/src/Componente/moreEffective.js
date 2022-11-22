@@ -12,7 +12,8 @@ const PracticeEffect = () => {
     //practice a little about this!
     useEffect(() => {
        if(number>0){
-         console.log("the numbers its change more on time")
+         console.log("THE NUMBERS ITS WORKING NOW AND NOW ALWAYS", 
+         number)
        }
     },[number])
 
