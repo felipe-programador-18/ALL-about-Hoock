@@ -17,7 +17,7 @@ const Practicallba = () => {
        
       <List getitems ={getDatabase} /> 
       <button onClick={()=> setcounter(counter+1) } >Alterar</button>
-     <p>TTTTTING {counter} </p>
+     <p>practice about useCallback {counter} </p>
    <hr/>
   </>)
 }
