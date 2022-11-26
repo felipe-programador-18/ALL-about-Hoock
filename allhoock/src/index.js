@@ -6,17 +6,21 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 import { AddProvideContext } from './hoock/context';
 import { TitleProvider } from './hoock/color';
+import { ManageAll } from './hoock/anotherContext';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   
   <AddProvideContext>
   <TitleProvider >
+  <ManageAll>
   <BrowserRouter>
   <React.StrictMode>
     <App />
   </React.StrictMode>
   </BrowserRouter>
+  </ManageAll> 
   </TitleProvider>
   
   </AddProvideContext>
