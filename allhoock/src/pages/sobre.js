@@ -47,7 +47,7 @@ const Sobre = ( ) => {
 
      <PracticeEffect/>
       
-    
+       {counter}
       <button onClick={() => setCounter(counter+1)} >+1Increased</button>
    
       </div>
