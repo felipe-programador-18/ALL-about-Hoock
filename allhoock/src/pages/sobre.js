@@ -15,6 +15,7 @@ const Sobre = ( ) => {
    const{count, setCount} = useVerify()
    console.log('testing here', count) 
    
+   const {counter, setCounter} = 
    
 
    const {color,dispatch} = useVerifyColor()
