@@ -5,8 +5,8 @@ export const ManageContext =  createContext()
 export const ManageAll = ({children}) =>{   
     const [counter, setCounter] = useState(0)
   
-    return ( <ManageAll value={{counter, setCounter}} >
+    return <ManageContext.Provider value={{counter, setCounter}} >
         {children}
-    </ManageAll> )
+    </ManageContext.Provider>
 
 }
