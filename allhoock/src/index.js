@@ -11,7 +11,6 @@ import { ManageAll } from './hoock/anotherContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  
   <AddProvideContext>
   <TitleProvider >
   <ManageAll>
@@ -24,7 +23,6 @@ root.render(
   </TitleProvider>
   
   </AddProvideContext>
-  
 );
 
 // If you want to start measuring performance in your app, pass a function
