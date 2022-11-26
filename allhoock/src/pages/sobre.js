@@ -8,12 +8,15 @@ import CreateExampleMemo from "../MoreHoock/useMemo"
 import AddCallbackHere from "../CallbackandMemo/ReceiveCallback"
 import MoreMemoHere from "../CallbackandMemo/ReceiveMemohere"
 import PracticeEffect from "../Componente/moreEffective"
+import ReceivePerso from "../Personalitehook/useReceive"
 
 
 const Sobre = ( ) => {
    const{count, setCount} = useVerify()
    console.log('testing here', count) 
    
+   
+
    const {color,dispatch} = useVerifyColor()
    console.log("i am here", color) 
    
@@ -41,6 +44,8 @@ const Sobre = ( ) => {
      <MoreMemoHere/>
 
      <PracticeEffect/>
+
+     
       </div>
     </>)
 }
