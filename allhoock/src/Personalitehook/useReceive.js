@@ -1,19 +1,14 @@
-import React,{useContext} from 'react'
+import {useContext} from 'react'
 import { ManageContext } from '../hoock/anotherContext'
 
-const ReceivePerso = () =>{
- 
-    const {counter, setCounter} = useContext(ManageContext)
+export const ReceivePerso = () =>{
+   
+    const auth = useContext(ManageContext)
 
-    return( 
-        <>
-          <h1>Testing my hook about couter</h1>
-          {counter}
-
-          <button onClick={()=> setCounter(counter+1) } >+1</button> 
-        </>
-    )
-
+    if(!auth){
+       return  console.log("testing my context here broo, not have context here")
+    }
+    return auth
 }
 
 export default ReceivePerso
