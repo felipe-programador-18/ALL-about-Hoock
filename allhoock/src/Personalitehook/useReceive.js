@@ -1,7 +1,7 @@
 import {useContext} from 'react'
 import { ManageContext } from '../hoock/anotherContext'
 
-export const ReceivePerso = () =>{
+export const useReceivePerso = () =>{
    
     const auth = useContext(ManageContext)
 
@@ -11,4 +11,4 @@ export const ReceivePerso = () =>{
     return auth
 }
 
-export default ReceivePerso
+export default useReceivePerso
