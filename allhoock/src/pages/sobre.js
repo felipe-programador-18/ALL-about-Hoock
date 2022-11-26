@@ -1,6 +1,7 @@
 import AddingSome from "../Componente/useeeffect"
 import { useVerify } from "../Personalitehook/useContext"
 import {useVerifyColor} from "../Personalitehook/useColors"
+import { useTesting } from "../Personalitehook/useReceive"
 import CreateMoreEffect from "../Componente/createAnotherUsereffect"
 import PracticeReffe from "../Componente/More.ref.userfe"
 import BuildCallback from "../MoreHoock/usecallback"
@@ -8,7 +9,6 @@ import CreateExampleMemo from "../MoreHoock/useMemo"
 import AddCallbackHere from "../CallbackandMemo/ReceiveCallback"
 import MoreMemoHere from "../CallbackandMemo/ReceiveMemohere"
 import PracticeEffect from "../Componente/moreEffective"
-import { useReceive } from "../Personalitehook/useReceive"
 
 
 
@@ -16,8 +16,8 @@ const Sobre = ( ) => {
    const{count, setCount} = useVerify()
    console.log('testing here', count) 
    
-  // const {counter, setCounter} = useReceive()
-   //console.log('testing my counter here', counter)
+   const{counter, setCounter} = useTesting()
+   console.log('testing my counter here', counter)
 
    const {color,dispatch} = useVerifyColor()
    console.log("i am here", color) 
@@ -47,9 +47,9 @@ const Sobre = ( ) => {
 
      <PracticeEffect/>
       
-      {/*{counter}
-      <button onClick={() => setCounter(counter+1)} >+1+1</button>
-      /*/}
+    
+      <button onClick={() => setCounter(counter+1)} >+1Increased</button>
+   
       </div>
     </>)
 }
