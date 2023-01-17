@@ -7,6 +7,7 @@ const Morepractice = () => {
     
     const [couter, setcounter] = useState(0)
      
+     console.log('testing my another function callback', couter)
      const Receivedate = useCallback(( 
         () => {
             return ['name',"felipe","age:43", "gender","male"]
