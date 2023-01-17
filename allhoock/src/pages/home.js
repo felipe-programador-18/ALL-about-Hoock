@@ -9,6 +9,9 @@ import AddingImperative from '../Componente/useImperative'
 import { useVerify } from '../Personalitehook/useContext'
 import { useVerifyColor } from '../Personalitehook/useColors'
 import TraningReducer from '../Reducer/useReducer'
+import MakeMoreHere from '../CallbackandMemo/MoreOtime'
+
+
 
 const Home = () => {
   const {color,dispatch} = useVerifyColor()
@@ -47,6 +50,7 @@ const Home = () => {
               <br/>
              <CreateUseLayout/>
              <AddingImperative/>
+             <MakeMoreHere/>
         </div>
     </> )
 }
