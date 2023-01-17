@@ -4,7 +4,8 @@ import TraningCallback from '../Componente/anothercallback'
 
 const AddCallbackHere = () => {
     const [counter, setCounter] = useState(0)
-
+    
+    console.log('testing here now more and more always', counter)
     const dates = useCallback((
         () => {
             return ["i need study more and more for me getting evolve in the life",
