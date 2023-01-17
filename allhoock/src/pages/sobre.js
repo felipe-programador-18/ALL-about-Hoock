@@ -9,7 +9,7 @@ import CreateExampleMemo from "../MoreHoock/useMemo"
 import AddCallbackHere from "../CallbackandMemo/ReceiveCallback"
 import MoreMemoHere from "../CallbackandMemo/ReceiveMemohere"
 import PracticeEffect from "../Componente/moreEffective"
-
+import PractCallmore from "../CallbackandMemo/Other.callpractice"
 
 
 const Sobre = ( ) => {
@@ -46,7 +46,7 @@ const Sobre = ( ) => {
      <MoreMemoHere/>
 
      <PracticeEffect/>
-      
+     <PractCallmore/>
        {counter}
       <button onClick={() => setCounter(counter+1)} >+1Increased</button>
    
