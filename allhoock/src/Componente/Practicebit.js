@@ -10,13 +10,24 @@ const PracticeAbit = () => {
   useEffect(() => {
    console.log("practice a bit about react just to refresh my mind")
   },[])
-  
+   
+  const onChangeaBit = (e) => {
+    e.preventDefault()
+    setName("")
+  }
+   
   
   return (<>
-  
-    <input onChange={() => setName(name)} />
-    {name}
-  
+
+    <form onSubmit={onChangeaBit}  >
+      <input type="text"
+        placeholder="TO PRACTICE A BIT"
+        onChange={(e) => setName(e.target.value)}
+        value={name}
+      />
+      {name}
+      
+    </form>
   </>)
 }
 
